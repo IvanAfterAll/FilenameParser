@@ -12,7 +12,7 @@ If my directory contains this file --> \Newspaper NY - 1899 Dec 25 Santa Comes t
 
 This script would search for the pattern ---> \Newspaper {State} - {Year} {Month} {Day} {Fileblurb}.pdf
 
-The final CSV will be sorted into five columns (State, Year, Month, Day, Fileblurb), e.g. ---> State: NY, Year: 1899, Month: Dec, Day: 25, Fileblurb: Santa Comes to NYC on Schedule and will export into your project directory
+The final CSV will be sorted into five columns (State, Year, Month, Day, Fileblurb), e.g. ---> State: NY, Year: 1899, Month: Dec, Day: 25, Fileblurb: Santa Comes to NYC on Schedule and will populate into a CSV that exports into your project directory
 
 ## How to Use
 Currently, the program is set to look for the specific pattern noted above as it was the file naming convention I had used. To use it, set your "filepath=." It should also be simple enough to plug in a different "pattern=" value and the Parse library allows for considerable complexity.
